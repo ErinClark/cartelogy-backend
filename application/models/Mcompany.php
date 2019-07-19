@@ -21,4 +21,11 @@ class Mcompany extends CI_Model
 		return $companies;
 	}
 
+	public function getCompanyByMofNo($id)
+	{
+		$row = $this->db->get_where('senarai_syarikat', array('MOF_NO' => $id))->row();
+
+		return $row;
+	}
+
 }
