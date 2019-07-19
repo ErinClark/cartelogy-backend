@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Welcome to Cartelogy</title>
 
 	<style type="text/css">
 
@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	body {
 		background-color: #fff;
 		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		font: 15px/20px normal Helvetica, Arial, sans-serif;
 		color: #4F5155;
 	}
 
@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		color: #444;
 		background-color: transparent;
 		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
+		font-size: 24px;
 		font-weight: normal;
 		margin: 0 0 14px 0;
 		padding: 14px 15px 10px 15px;
@@ -36,7 +36,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	code {
 		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
+		font-size: 14px;
 		background-color: #f9f9f9;
 		border: 1px solid #D0D0D0;
 		color: #002166;
@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 
 	#container {
-		margin: 10px;
+		margin: 50px;
 		border: 1px solid #D0D0D0;
 		box-shadow: 0 0 8px #D0D0D0;
 	}
@@ -68,21 +68,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1>Welcome to Cartelogy</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+		<code>
+			This project will produce a mechanism to detect the occurrence of monopolies and the probability of the cronyism in the Government’s procurement process.
+			The Big Data Analytics solution will merge awarded suppliers data, list of product and services data offered by suppliers and company details. By merging and analyzing these data it shall trigger a flag if there is an existence of the cartel and suggest to the procurement committee to avoid the respective company/tenderer.
+			The tracking mechanism will look into the company name, number of times it has been awarded and Politically Exposed Person (PEP). This will show  a pattern and trend based on the list of the PEP and company that won the tenders and quotations. The pattern and trend then will generate a flag and prediction of risk of the company.
+		</code>
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds.</p>
 </div>
 
 </body>
