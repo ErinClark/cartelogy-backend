@@ -22,4 +22,10 @@ class Company extends CI_Controller {
 		header('Content-Type: application/json');
 		echo json_encode($this->mcompany->getCompanyByMofNo($id1, $id2));
 	}
+
+	public function getOCDS()
+	{
+		header('Content-Type: application/json');
+		echo json_encode($this->mcompany->getOCDS());
+	}
 }

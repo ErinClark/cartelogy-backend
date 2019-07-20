@@ -261,4 +261,11 @@ class Mcompany extends CI_Model
 		return $data;
 	}
 
+
+	public function getOCDS()
+	{
+		$data["data"] = $this->db->get('senarai_tender')->result();
+		return $data;
+	}
+
 }
