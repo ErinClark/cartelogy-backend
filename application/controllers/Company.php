@@ -17,9 +17,9 @@ class Company extends CI_Controller {
 		echo '</pre>';
 	}
 
-	public function getCompanyByMofNo($id)
+	public function getCompanyByMofNo($id1, $id2)
 	{
 		header('Content-Type: application/json');
-		echo json_encode($this->mcompany->getCompanyByMofNo($id));
+		echo json_encode($this->mcompany->getCompanyByMofNo($id1, $id2));
 	}
 }
